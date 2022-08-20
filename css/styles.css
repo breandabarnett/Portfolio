@@ -6,7 +6,7 @@
 
 body {
   margin-top: 100px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -31,6 +31,11 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+footer {
+  margin-top: 80px;
+  text-align: center;
 }
 
 .navbar-logo {
@@ -88,6 +93,19 @@ p {
   text-decoration: underline;
 }
 
+.credits {
+  font-size: smaller;
+}
+
+.credits a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.credits a:hover {
+  text-decoration: underline;
+}
 /* About Page End*/
 
 @media (max-width: 767px) {
