@@ -5,8 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin: 100px auto 20px;
 }
 
 h1 {
@@ -62,12 +61,20 @@ footer {
   box-shadow: var(--box-shadow);
 }
 
+.primary-button:hover {
+  color: var(--secondary-color);
+}
+
 .secondary-button {
   padding: 20px 15px;
   border-radius: 4px;
   text-decoration: none;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.secondary-button:hover {
+  color: var(--primary-color);
 }
 /*Home Page End*/
 
@@ -115,6 +122,7 @@ footer {
 
   h2 {
     font-size: 30px;
+    text-align: center;
   }
 
   h3 {
@@ -123,6 +131,13 @@ footer {
   }
   p {
     font-size: 16px;
+    text-align: center;
+  }
+
+  .project-button {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 
   .primary-button {
