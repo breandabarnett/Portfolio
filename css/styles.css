@@ -83,6 +83,11 @@ p {
   color: var(--primary-color);
   font-size: 28px;
 }
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
 /* About Page End*/
 
 @media (max-width: 767px) {
@@ -108,6 +113,10 @@ p {
 
   .secondary-button {
     padding: 18px 13px;
+  }
+
+  .about-photos {
+    margin: 10px auto;
   }
 
   .email-link {
