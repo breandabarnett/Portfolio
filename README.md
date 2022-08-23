@@ -6,7 +6,7 @@
 </p>
 <ul>
   <li>
-    Live Site (https://breanda.netlify.app/)
+    Live Site (https://breanda-dev.netlify.app/)
   </li>
   <li>
     Netlify for Hosting (https://netlify.com)
